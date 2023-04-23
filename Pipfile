@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 psycopg2-binary = "*"
+faker = "*"
+contexttimer = "*"
 
 [dev-packages]
 
