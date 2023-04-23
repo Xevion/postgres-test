@@ -1,5 +1,5 @@
 from psycopg2 import connect
-from seed import main
+from src.seed import main
 
 if __name__ == '__main__':
     conn = connect(dbname='railway', user='postgres', password='8h9hxh5YeBwfqTCrxQQb',
